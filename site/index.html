@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petshop do Vovô</title>
+  <meta name="description" content="Petshop do Vovô: banho, tosa, veterinário e muito carinho para o seu melhor amigo.">
+  <link rel="stylesheet" href="https://use.typekit.net/rwv7ccj.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ÍCONES (sprite SVG) — use com: <svg class="ico"><use href="#i-nome"/></svg> -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-paw" viewBox="0 0 24 24">
+      <circle cx="11" cy="4" r="2"/>
+      <circle cx="18" cy="8" r="2"/>
+      <circle cx="20" cy="16" r="2"/>
+      <path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z"/>
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24">
+      <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+      <circle cx="12" cy="10" r="3"/>
+    </symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10"/>
+      <polyline points="12 6 12 12 16 14"/>
+    </symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24">
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+    </symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </symbol>
+  </svg>
+
+  <!-- CABEÇALHO -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">
+        <img class="logo__img" src="images/img_logo3.png" alt="Petshop do Vovô">
+      </a>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre nós</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+        <a href="#duvidas">Dúvidas</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <h1>Cuidado de vovô para o seu melhor amigo</h1>
+          <h2><span style="background-color: #61a6b6; color: #FFFDF1;">&nbsp;Banho, tosa e muito carinho, tudo para o bem-estar do seu pet em um só lugar.&nbsp;</span></h2>
+          <p>
+            Há mais de 20 anos cuidando de cães e gatos da vizinhança com paciência,
+            atenção e todo o amor que eles merecem.
+          </p>
+          <p>
+            Agende uma visita e descubra por que os nossos clientes de quatro patas
+            não querem ir embora.
+          </p>
+          <a href="https://wa.me/5511973010466?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Petshop%20do%20Vov%C3%B4%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20o%20meu%20pet." class="btn" target="_blank" rel="noopener">Quero cuidar do meu pet!</a>
+        </div>
+        <div class="hero__media">
+          <img class="hero__img" src="images/img_home.png" alt="Cachorro feliz no petshop">
+        </div>
+      </div>
+    </section>
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- SOBRE NÓS -->
+    <section class="about" id="sobre">
+      <div class="container about__inner">
+        <div class="about__media">
+          <img class="about__img" src="images/img_sobre.jpeg" alt="Fachada do Petshop do Vovô">
+        </div>
+        <div class="about__text">
+          <h2>Sobre nós</h2>
+          <h3>Uma história feita de patinhas e afeto</h3>
+          <p>
+           <span style="background-color: #f2622e; color: #FFFDF1;">&nbsp;­­­O Petshop do Vovô nasceu do amor de um avô por animais.&nbsp; <br> </span>
+            O que começou como um pequeno banho e tosa no quintal virou referência no bairro.
+          </p>
+          <p>
+            Nossa equipe é formada por profissionais apaixonados, treinados para tratar
+            cada pet com respeito e segurança.
+          </p>
+          <p>
+            Usamos produtos de qualidade, hipoalergênicos e adequados para cada tipo de
+            pelagem e de pele.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS (CARROSSEL) -->
+    <section class="services" id="servicos">
+      <div class="container services__head">
+        <h2>Nossos serviços</h2>
+        <p>Tudo o que o seu pet precisa em um só lugar.</p>
+      </div>
+
+      <div class="carousel" aria-roledescription="carrossel">
+        <button class="carousel__btn carousel__btn--prev" type="button" aria-label="Serviço anterior">‹</button>
+        <!--
+          =====================================================
+          CARDS DE SERVIÇOS — EDITE OS TEXTOS AQUI
+          - Troque o título dentro do <h3> e a descrição dentro do <p>.
+          - Para trocar a foto, mude o src="..." do <img>.
+          - Para usar um ícone em vez de foto, troque o <img> por (ícones no início do <body>):
+              <div class="card__img card__img--icon" aria-hidden="true"><svg class="ico"><use href="#i-paw"/></svg></div>
+          - Para adicionar um serviço, copie um bloco <article> inteiro.
+          - Para remover, apague o bloco <article> inteiro.
+          - O card do MEIO inicial é o segundo (data-start="true").
+          =====================================================
+        -->
+        <div class="carousel__track" id="carouselTrack">
+
+          <article class="card">
+            <img class="card__img" src="images/img_racao.jpg" alt="Gatinho comendo ração">
+            <h3>Rações e petiscos</h3>
+            <p>Trabalhamos com marcas como Pedigree, Biofresh e Golden. Entre em contato para consultar disponibilidade!</p>
+          </article>
+
+          <article class="card" data-start="true">
+            <img class="card__img" src="images/img_banho_e_tosa.png" alt="Gato sendo escovado">
+            <h3>Banho e tosa</h3>
+            <p>Banho com produtos de qualidade e tosa higiênica, na máquina, na tesoura ou da raça.</p>
+          </article>
+
+          <article class="card">
+            <img class="card__img" src="images/img_taxidog.png" alt="Husky no Taxipet">
+            <h3>Taxipet</h3>
+            <p>Buscamos e entregamos seu pet com todo cuidado. Consulte disponibilidade e valor.</p>
+          </article>
+
+        </div>
+        <button class="carousel__btn carousel__btn--next" type="button" aria-label="Próximo serviço">›</button>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contact" id="contato">
+      <div class="container contact__inner">
+        <div class="contact__text">
+          <h2>Venha cuidar do seu pet com a gente!</h2>
+          <h3>Agende um horário ou venha nos visitar. Será um prazer receber você e seu pet!</h3>
+
+          <ul class="contact__list">
+            <li>
+              <span class="icon" aria-hidden="true"><svg class="ico"><use href="#i-pin"/></svg></span>
+              <span>Av. Josino Vieira de Goes, 425 – Tremembé <br> São Paulo – SP, 02319-000</span>
+            </li>
+            <li>
+              <span class="icon" aria-hidden="true"><svg class="ico"><use href="#i-clock"/></svg></span>
+              <span>Seg a Sáb, das 8h às 18h</span>
+            </li>
+            <li>
+              <span class="icon" aria-hidden="true"><svg class="ico"><use href="#i-phone"/></svg></span>
+              <span>(11) 97301-0466</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact__map">
+          <iframe class="map__frame" title="Localização do Petshop do Vovô no Google Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.2743363834156!2d-46.595685!3d-23.450566900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef7a55fbe8901%3A0x734a1e4e306ad70b!2sPetShop%20do%20vov%C3%B4!5e0!3m2!1spt-BR!2sbr!4v1795144010830!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- DÚVIDAS (FAQ) -->
+    <section class="faq" id="duvidas">
+      <div class="container faq__head">
+        <h2>Dúvidas frequentes</h2>
+        <p>Tire suas dúvidas e conheça melhor como cuidamos do seu companheiro.</p>
+      </div>
+
+      <div class="container faq__list">
+        <details class="faq__item">
+          <summary>Preciso agendar o banho e a tosa com antecedência?</summary>
+          <p>Recomendamos agendar por telefone ou WhatsApp para garantir o melhor horário, mas também atendemos sem hora marcada quando há vaga.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Quais animais vocês atendem?</summary>
+          <p>Atendemos cães e gatos de todos os portes e raças.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Quanto tempo leva o banho e a tosa?</summary>
+          <p>Em média de 1 a 3 horas, dependendo do porte, da pelagem e do serviço escolhido. Avisaremos quando seu pet estiver pronto.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Vocês oferecem serviço de transporte?</summary>
+          <p>Sim! Temos de transporte chamado Taxipet. Consulte a disponibilidade e o valor por telefone.</p>
+        </details>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__media">
+        <img class="footer__img" src="images/img_logo4.png" alt="Logotipo da marca" style="display: block; width: 100%; max-width: 200px; height: auto; margin: 0 auto;">
+      </div>
+      <div class="footer__text">
+        <h3>Petshop do Vovô</h3>
+        <p>Av. Josino Vieira de Goes, 425 – Tremembé <br> São Paulo – SP, 02319-000<br>(11) 97301-0466<br>@petdovovo</p>
+        <p class="footer__copy">© 2026 Petshop do Vovô. Todos os direitos reservados.</p>
+      </div>
+      <a href="#inicio" class="footer__top" aria-label="Voltar ao topo">↑</a>
+    </div>
+  </footer>
+
+  <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+  <a class="whats-float"
+     href="https://wa.me/5511973010466?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Petshop%20do%20Vov%C3%B4."
+     target="_blank" rel="noopener"
+     aria-label="Falar com o Petshop do Vovô no WhatsApp" title="Fale conosco no WhatsApp">
+    <svg class="ico ico--fill" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+  </a>
+
+  <script>
+    // Carrossel de serviços
+    // Os cards ficam escritos no HTML (seção "Nossos serviços").
+    // Este script apenas decide quais aparecem: anterior, ativo e próximo.
+    const cards = Array.from(document.querySelectorAll('#carouselTrack .card'));
+    let current = Math.max(0, cards.findIndex(c => c.dataset.start === 'true'));
+
+    function mod(n, m) { return ((n % m) + m) % m; }
+
+    function render() {
+      const total = cards.length;
+      cards.forEach((card, i) => {
+        card.classList.remove('card--active', 'card--side', 'card--hidden');
+        if (i === current) {
+          card.classList.add('card--active');
+        } else if (total > 1 && (i === mod(current - 1, total) || i === mod(current + 1, total))) {
+          card.classList.add('card--side');
+        } else {
+          card.classList.add('card--hidden');
+        }
+      });
+
+      // Mantém a ordem visual: anterior, ativo, próximo
+      const track = document.getElementById('carouselTrack');
+      const order = total > 1
+        ? [cards[mod(current - 1, total)], cards[current], cards[mod(current + 1, total)]]
+        : [cards[current]];
+      new Set(order).forEach(c => track.appendChild(c));
+      cards.filter(c => !order.includes(c)).forEach(c => track.appendChild(c));
+    }
+
+    document.querySelector('.carousel__btn--prev').addEventListener('click', () => {
+      current = mod(current - 1, cards.length);
+      render();
+    });
+    document.querySelector('.carousel__btn--next').addEventListener('click', () => {
+      current = mod(current + 1, cards.length);
+      render();
+    });
+
+    render();
+  </script>
+
+</body>
+</html>
